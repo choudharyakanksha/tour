@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>World Tour</title>
+</head>
+<body>
+    <!-- for navbar -->
+    <nav class="nav-bar">
+        <h1 class="logo">FrozenTravels</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <form action="form.html"></form> -->
+            <li class="ctn"><a href="form.html">Contact</a></li></form>
+            <!-- <li class="ctn"><link rel="stylesheet" href="form.html"></a>Contact</li> -->
+        </ul>
+        <img src="./img/dots.png" alt="error" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content" id="home">
+            <h2>Explore the colorful world</h2>
+            <div class="line"></div>
+                <h1>A wonderful gift</h1>
+                <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+
+    <!-- events -->
+
+   <div id="tours">
+    <section class="event">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/download.jpg" alt="">
+                <h4>walking</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, deleniti?</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="./img/download (1).jpg" alt="">
+                <h4>peace</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, deleniti?</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
+   </div>
+
+    <section class="explore" id="explore">
+       <div class="A">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae ea aut reprehenderit dolorem culpa quidem aperiam accusantium ipsa debitis eligendi est suscipit dicta pariatur, veniam necessitatibus sequi tempore ratione aliquam?</p>
+        <a href="#" class="ctn">learn more</a>
+       </div>
+    </section>
+
+    <section class="tours" id="about">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci animi tenetur, voluptatibus alias ullam delectus omnis, officiis unde, nostrum reiciendis facere rerum molestiae? Molestiae doloremque aliquam, voluptas voluptates rerum veniam praesentium facilis dolores eum eveniet. Ullam architecto nemo impedit consectetur suscipit sed quod cum distinctio.</p>
+                <a href="#" class="ctn">learn more</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/images.jpg" alt="">
+                    <img src="./img/download.jpg" alt="">
+                    <img src="./img/darkmatter.jpg" alt="">
+                    <img src="./img/man.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam deleniti, odit eaque nulla perferendis quibusdam.</p>
+        <p>copyright 2023</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () =>{navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
